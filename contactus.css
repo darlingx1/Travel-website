@@ -6,6 +6,11 @@ body {
    background-repeat: no-repeat;
    background-size: cover;
 background-position: center;
+  height: 100%;
+    
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;
    
 
 }
@@ -110,10 +115,40 @@ nav {
 }
 
 
+/* Styling the form */
+form {
+    max-width: 600px;
+    width: 100%; /* Ensures form takes up full width within max-width */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* White transparent background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling form elements */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
 button {
-    background-color:rgb(170, 201, 230);
+    background-color: #4CAF50;
+    color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
 }
