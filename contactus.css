@@ -1,6 +1,6 @@
 
 body {
-  background-image: url('Last.jpg'); /* Path to your image */
+  background-image: url('images/Last.jpg'); /* Path to your image */
    margin: 0; /* Remove default margin */
   padding-top: 60px;
    background-repeat: no-repeat;
